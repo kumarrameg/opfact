@@ -364,3 +364,14 @@ h6 {
   max-width: 1276px; /* Limits the maximum width */
   height: auto; /* Maintains the aspect ratio */
 }
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  #div_block-896-79 {
+    display: none;
+  }
+  .step{
+    align-items: flex-start;
+  }
+
+}
